@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Este XML nos servira para personalizar la lista de nuestro spinner
+    pueden probar cambiando los colores aqui para darse cuenta de los cambios-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#ffffff"
+    android:textColor="#000000">
+</TextView>

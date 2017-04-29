@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--Primeramente elegimos el tema Theme.ApCompact.Light.NoActionBar-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Este tema sin items es el tema por defecto para el efecto transparente en versiones de
+        Android menores a 5.0, al crearlo deben instanciar un item con el nombre: android:statusBarColor
+        automaticamente les saldra un error en el les sugiere crear un nuevo XML llamado stylesv21 y lo crean-->
+    <style name="AppTheme.NoActionBar">
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

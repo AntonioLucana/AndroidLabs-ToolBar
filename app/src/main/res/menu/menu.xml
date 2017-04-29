@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Creamos nuestro Menu en el que instanciamos 3 items-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--El atributo app:showAsAction="always" nos indica que este item
+        permanecera siempre en el toolbar-->
+    <item
+        android:id="@+id/item1"
+        android:title="Buscar"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Acerca de"
+        android:icon="@mipmap/ic_launcher">
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:title="Mas..."
+        android:icon="@mipmap/ic_launcher">
+    </item>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Una ves creado este archivo asignar el color transparente al item android:statusBarColor
+        automaticamente en el archivo styles.xml su tema quedara sin items-->
+    <style name="AppTheme.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
